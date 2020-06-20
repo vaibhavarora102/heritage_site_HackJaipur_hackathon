@@ -1,0 +1,55 @@
+a,a:active,a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.ui.inverted.menu {
+  
+    background: #FF9800;  
+}
+#target{position:fixed;
+    left:0;top:0;
+    background-color: black;
+    color:white;
+    width:80px;
+    padding:5px;
+    z-index:1 ;
+    border-bottom-right-radius: 50px;
+    text-shadow: 1px solid white;
+}
+.nav{
+    position: relative;
+    height:50px;
+    background-color:#FF9800;padding-top:5px;
+}
+.searchhello{
+    transform: translateX(50%);
+}
+.hellobuttons{
+    position:absolute;
+    right:10px;
+    top:8px;
+}
+.logout{
+    position:absolute;
+    right:0;top:50px; padding:8px;padding-left: 20px; background-color: black;
+    color:white; border-bottom-left-radius: 25px;
+}
+.seg_me{
+position: relative;
+margin-top:5vh;
+}
+
+/*cccccc */
+.column
+{
+    height:40vh;
+
+}
+.centered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
