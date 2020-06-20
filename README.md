@@ -20,8 +20,8 @@ User can be Seller | we have made such easy operation system that any one who ha
 Cart | Our site contains statewise, product-wise and region wise search facility for searching and buying the heritage/cultural items. We have rating system where buyer could rate the item and we had also defined the comments as parameter for rating on based of specific words. Till certain limit negative comments would be accepted after that seller would be notified with warning and immediate action.   
 
 ## 5) Problem it saves:
-###a) Supports local producers - Our website promotes selling of goods by the local producers and owners so that margin cost can be minimised and and locals can be supported. Following the PM's Aatmnirbharta program.
-###b) Buying and selling antiques maade easy - We have created simplistic and modern UI, which is completey user oriented, so that a person with minimalistic internet knowledge can use it easily.
+### a) Supports local producers - Our website promotes selling of goods by the local producers and owners so that margin cost can be minimised and and locals can be supported. Following the PM's Aatmnirbharta program.
+### b) Buying and selling antiques maade easy - We have created simplistic and modern UI, which is completey user oriented, so that a person with minimalistic internet knowledge can use it easily.
 
 ## 6) Challenges faced during this project:
 
