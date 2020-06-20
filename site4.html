@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="site4.css">
+    
+</head>
+<body>
+  <!--bottom popup nav-->
+    <div id="target">
+        <i class="angle double up icon"></i>Menu
+      </div>
+    <div class="ui bottomhello bottom demo inverted nine item labeled icon sidebar menu overlay" >
+        <a class="item">
+          <i class="home icon"></i>
+          Home
+        </a>
+        <a class="item">
+          <i class="block layout icon"></i>
+          New arrivals
+        </a>
+       
+        <a class="item">
+          <i class="calendar icon"></i>
+         Orders
+        </a>
+        
+        <a class="item">
+          <i class="shop icon"></i>
+          Store
+        </a>
+        <a class="item">
+          <i class="settings icon"></i>
+          Settings
+        </a>
+      </div>
+      <!--main section of code -->
+     <div class="main_section">
+       <!--nav -->
+     <div class="nav">
+        <div class="searchhello"><div class="ui search ">
+            <div class="ui icon input">
+              <input class="prompt" type="text" placeholder="Search items...">
+              <i class="search icon"></i>
+            </div>
+            <a href="#" style=" font-size:18px ;"><i class="chevron circle right icon"></i> </a>
+            <div class="results"></div>
+          </div>
+         </div>
+         <div class="hellobuttons"> <div class="ui  buttons">
+            <button class="ui inverted button ">Image search</button>
+            <div class="or"></div>
+            <button class="ui inverted button">3d models</button>
+          </div>
+         </div>
+          <!--logout -->
+         <div class="logout">
+           <a href="#"> Logout</a>
+          </div>
+     </div>
+    
+     <div class="ui container seg_me">
+      <div class="ui ordered  steps">
+        <div class=" step">
+          <div class="content">
+            <div class="title">Shipping</div>
+            <div class="description">Choose your shipping options</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="content">
+            <div class="title">Billing</div>
+            <div class="description">Enter billing information</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="content">
+            <div class="title">Confirm Order</div>
+            <div class="description">Verify order details</div>
+          </div>
+        </div>
+      </div>
+      <button class="ui positive button" onclick="next()">next</button>
+      <!--shipping-->
+      <div id="shippinghello">
+        <form class="ui form">
+          <h4 class="ui dividing header">Shipping Information</h4>
+          <div class="field">
+            <label>Name</label>
+            <div class="two fields">
+              <div class="field">
+                <input type="text" name="shipping[first-name]" placeholder="First Name">
+              </div>
+              <div class="field">
+                <input type="text" name="shipping[last-name]" placeholder="Last Name">
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label>Billing Address</label>
+            <div class="fields">
+              <div class="twelve wide field">
+                <input type="text" name="shipping[address]" placeholder="Street Address">
+              </div>
+              <div class="four wide field">
+                <input type="number" name="shipping[address-2]" placeholder="pincode">
+              </div>
+            </div>
+            <div class="fields">
+            <div class="four wide field">
+              <label>State</label>
+              <input type="text" name="state" placeholder="Punjab">
+            </div> <div class="four wide field">
+              <label>State</label>
+              <input type="text" name="country" placeholder="India ">
+          </div></div>
+        
+        </form>
+      </div></div>
+      <!--billing page-->
+      <div id="billing">
+        <form class="ui form"> <h4 class="ui dividing header">Billing Information</h4>
+        <div class="field">
+          <label>Card Type</label>
+          <div class="ui selection dropdown">
+            <input type="hidden" name="card[type]">
+            <div class="default text">Type</div>
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <div class="item" data-value="visa">
+                <i class="visa icon"></i>
+                Visa
+              </div>
+              <div class="item" data-value="amex">
+                <i class="amex icon"></i>
+                American Express
+              </div>
+              <div class="item" data-value="discover">
+                <i class="discover icon"></i>
+                Discover
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fields">
+          <div class="seven wide field">
+            <label>Card Number</label>
+            <input type="text" name="card[number]" maxlength="16" placeholder="Card #">
+          </div>
+          <div class="three wide field">
+            <label>CVC</label>
+            <input type="text" name="card[cvc]" maxlength="3" placeholder="CVC">
+          </div>
+          <div class="six wide field">
+            <label>Expiration</label>
+            <div class="two fields">
+              <div class="field">
+                <select class="ui fluid search dropdown" name="card[expire-month]">
+                  <option value="">Month</option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+              </div>
+              <div class="field">
+                <input type="text" name="card[expire-year]" maxlength="4" placeholder="Year">
+              </div>
+            </div>
+          </div>
+        </div>
+        </form></div>
+        <!--final page-->
+        <div id="final">
+          <h4 class="ui horizontal divider header">
+            <i class="tag icon"></i>
+            Description
+          </h4>
+          <p>Doggie treats are good for all times of the year. Proven to be eaten by 99.9% of all dogs worldwide.</p>
+          <h4 class="ui horizontal divider header">
+            <i class="bar chart icon"></i>
+            Specifications
+          </h4>
+          <table class="ui definition table">
+            <tbody>
+              <tr>
+                <td class="two wide column">Size</td>
+                <td>1" x 2"</td>
+              </tr>
+              <tr>
+                <td>Weight</td>
+                <td>6 ounces</td>
+              </tr>
+              <tr>
+                <td>Color</td>
+                <td>Yellowish</td>
+              </tr>
+              <tr>
+                <td>Odor</td>
+                <td>Not Much Usually</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+     </div>
+     
+     </div>
+    
+
+    
+     <div class="ui black inverted center aligned segment">
+       <br>Copyright@2020
+     </div>
+<div class="">
+
+  
+</div>
+      </div>
+    </div>
+    
+    
+     </div>
+    
+
+     
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+      <script>
+          $( "#target" ).click(function() {
+            $('.bottomhello')
+  .sidebar('setting', 'transition', 'overlay')
+  .sidebar('toggle')
+;
+});
+$('.ui.dropdown')
+  .dropdown()
+;
+
+      </script>
+     <script> 
+     var steps= document.getElementsByClassName("step");
+     
+     console.log(steps);
+     count=0;
+ function next()
+ {
+  if(count==2)
+  {
+    alert("Order placed");
+  }
+  
+  steps[count].classList.add("completed"); 
+  count++;
+  if(count==1)
+  {
+    document.getElementById('shippinghello').style.display = 'none';
+   
+   document.getElementById('billing').style.display = 'block';
+    
+  }
+  if(count==2)
+  {
+    document.getElementById('billing').style.display = 'none';
+   
+   document.getElementById('final').style.display = 'block';
+    
+  }
+ }
+
+        </script>
+</body>
+</html>
