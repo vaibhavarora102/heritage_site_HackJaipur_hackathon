@@ -7,7 +7,7 @@ Hack-Jaipur hackathon project to build and e commerce site with the help Autho, 
 
 ## 2) Title:
 
-## 3) Basic idea:
+## 3) Basic idea and category choosed:
 
 ## 4) Features:
 
