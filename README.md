@@ -9,20 +9,22 @@ Hack-Jaipur hackathon project to build and e commerce site with the help Autho, 
 
 ## 3) Basic idea:
 
-## 4) Problem it saves:
+## 4) Features:
 
-## 5) Challenges faced during this project:
+## 5) Problem it saves:
 
-## 6) Technologies used:
+## 6) Challenges faced during this project:
+
+## 7) Technologies used:
 ### a.) AuthO
 ### b.) Machine Learning
-### c.) 3-D Models
+### c.) 3-D Visualization
 ### d.) Semantic UI
 ### e.) Django
 
 
 
-## 7) Links for project:
+## 8) Links for project:
 ### LIVE PROJECT LINK: 
 ### VIDEO LINK: 
 
