@@ -19,9 +19,9 @@ This gives an exact clue how much india cultural and heritage products are favou
 ### Category choosed:
 Category | Explanation
 ------------ | -------------
-Diversity: | As we know diversity is the key feature which makes India beautiful ,this platform connects all the states and small towns  . It helps to maintain diversity . Anyone can connect through this platform and earn. 
-Remotely Working : | Due to this pandemic COVID-19 , work of small scale workers has declined to provide them source to earn.
-Creating Awareness : | This will helpful to spread gandhian norms of self reliance and ‘MAKE IN INDIA’  ,increasing the value of our indian products whole over the world.
+Diversity | As we know diversity is the key feature which makes India beautiful ,this platform connects all the states and small towns  . It helps to maintain diversity . Anyone can connect through this platform and earn. 
+Remotely Working | Due to this pandemic COVID-19 , work of small scale workers has declined to provide them source to earn.
+Creating Awareness | This will helpful to spread gandhian norms of self reliance and ‘MAKE IN INDIA’  ,increasing the value of our indian products whole over the world.
 
 ## 4) Features:
 Feature | Explanation
