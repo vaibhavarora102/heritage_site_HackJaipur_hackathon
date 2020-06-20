@@ -6,7 +6,12 @@ Hack-Jaipur hackathon project to build and e commerce site with the help Autho, 
 ### Heritagia
 
 ## 2) Title:
-## Empowering The Cultural Heritage 
+### Empowering The Cultural Heritage
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
+
 
 ## 3) Basic idea and category choosed:
 
