@@ -10,16 +10,16 @@ Hack-Jaipur hackathon project to build and e commerce site with the help Autho, 
 
 ## 3) Basic idea and category choosed:
  Idea and category choosed:-
-## Idea :
+### Idea :
 The idea was to provide an equal chance to everyone to grow whether small potter or a jute worker. So to increase opportunities to new workers and small scale workers . We came up with an idea to provide a platform where they can sell their handicrafts and other related to customers or to other business man , increasing the transparency in this chain . heritage is a  C2C  site for the same.
-## Demand of indian products:
+#### Demand of indian products:
 Miscellaneous Handicrafts - INR 6960 Crores,Woodwares - INR 5425 Crores,Embroidered &,Crocheted Goods - INR 3926 Crores 
 (Data: Indian exports for the year 2018–19)
 This gives an exact clue how much india cultural and heritage products are favoured everywhere.
-## Category choosed:
-|Diversity: As we know diversity is the key feature which makes India beautiful ,this platform connects all the states and small towns  . It helps to maintain diversity . Anyone can connect through this platform and earn.|
-|Remotely Working : Due to this pandemic COVID-19 , work of small scale workers has declined to provide them source to earn.|
-|Creating Awareness : This will helpful to spread gandhian norms of self reliance and ‘MAKE IN INDIA’  ,increasing the value of our indian products whole over the world.|
+### Category choosed:
+Diversity: As we know diversity is the key feature which makes India beautiful ,this platform connects all the states and small towns  . It helps to maintain diversity . Anyone can connect through this platform and earn.|
+Remotely Working : Due to this pandemic COVID-19 , work of small scale workers has declined to provide them source to earn.|
+Creating Awareness : This will helpful to spread gandhian norms of self reliance and ‘MAKE IN INDIA’  ,increasing the value of our indian products whole over the world.|
 
 ## 4) Features:
 Feature | Explanation
