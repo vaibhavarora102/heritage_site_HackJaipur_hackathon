@@ -9,7 +9,7 @@ Hack-Jaipur hackathon project to build and e commerce site with the help Autho, 
 ### Empowering The Cultural Heritage 
 
 ## 3) Basic idea and category choosed:
- Idea and category choosed:-
+#### Idea and category choosed:-
 ### Idea :
 The idea was to provide an equal chance to everyone to grow whether small potter or a jute worker. So to increase opportunities to new workers and small scale workers . We came up with an idea to provide a platform where they can sell their handicrafts and other related to customers or to other business man , increasing the transparency in this chain . heritage is a  C2C  site for the same.
 #### Demand of indian products:
