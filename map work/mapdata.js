@@ -156,32 +156,32 @@ var simplemaps_countrymap_mapdata = {
         },
         "21": {
             name: "Maharashtra",
-            description: "<img src='maharahstra.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Kolhapuri chappal</b> making is a major handicraft industry that employees over 20,000 craftspersons in the district. Kolhapuri chappals are flat, intricately patterned, handcrafted leather footwear traditionally made in Kolhapur by the community whose hereditary occupation is tanning and leather work.  </p>",
+            description: "<img src='images/maharahstra.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Kolhapuri chappal</b> making is a major handicraft industry that employees over 20,000 craftspersons in the district. Kolhapuri chappals are flat, intricately patterned, handcrafted leather footwear traditionally made in Kolhapur by the community whose hereditary occupation is tanning and leather work.  </p>",
             color: "#ff9234"
         },
         "22": {
             name: "Manipur",
-            description: "<img src='manipur.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Kauna</b> is a kind of reed that mostly grows in wetlands and marshes. In Manipur, this is used for making mats, and cushions. Numerous craftsmen in Manipur are engaged in this particular craft. Kauna Crafts creates products that are used for domestic use and export market.</p>",
+            description: "<img src='images/manipur.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Kauna</b> is a kind of reed that mostly grows in wetlands and marshes. In Manipur, this is used for making mats, and cushions. Numerous craftsmen in Manipur are engaged in this particular craft. Kauna Crafts creates products that are used for domestic use and export market.</p>",
             color: "#ffcd3c"
         },
         "23": {
             name: "Meghalaya",
-            description: "<img src='meghalaya.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p>Prominent work here includes <b>woodcarving</b> and <b>bamboo work</b> because the raw material for these products is found in abundance in the state. The state produces some amazing cane mats, winnowing fans, caps, umbrellas, stools and baskets.</p>",
+            description: "<img src='images/meghalaya.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p>Prominent work here includes <b>woodcarving</b> and <b>bamboo work</b> because the raw material for these products is found in abundance in the state. The state produces some amazing cane mats, winnowing fans, caps, umbrellas, stools and baskets.</p>",
             color: "#ffcd3c"
         },
         "24": {
             name: "Mizoram",
-            description: "<img src='mizoram.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Weaving</b> is a popular craft in Mizoram and the artisans of the state are experts in this craft form. They are proficient in changing the simple raw material in beautiful designs and patterns and produce lovely fabric. The Intricate traditional designs are woven by the Mizo women on their looms.</p>",
+            description: "<img src='images/mizoram.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Weaving</b> is a popular craft in Mizoram and the artisans of the state are experts in this craft form. They are proficient in changing the simple raw material in beautiful designs and patterns and produce lovely fabric. The Intricate traditional designs are woven by the Mizo women on their looms.</p>",
             color: "#ffcd3c"
         },
         "25": {
             name: "Nagaland",
-            description: "<img src='nagaland.jpeg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Blacksmithy</b> or metal works, though a comparatively recent craft, is more popular. The smiths produce the normal requirements of villagers like the Dao, axe, sickle, knives, spear points and butts etc. The Konyaks are the best blacksmiths. They make muzzle-loading guns as well. The Lothas regard this trade unlucky and believe that no blacksmith lives long after he stops the work. </p>",
+            description: "<img src='images/nagaland.jpeg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p><b>Blacksmithy</b> or metal works, though a comparatively recent craft, is more popular. The smiths produce the normal requirements of villagers like the Dao, axe, sickle, knives, spear points and butts etc. The Konyaks are the best blacksmiths. They make muzzle-loading guns as well. The Lothas regard this trade unlucky and believe that no blacksmith lives long after he stops the work. </p>",
             color: "#ffcd3c"
         },
         "26": {
             name: "Orissa",
-            description: "<img src='orrisa.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p>Believed to be originated in the early 12th-century, Pattachitra is an icon painting which makes it one of the most popular living art forms in India. People in Odisha can be seen practising it daily. </p>",
+            description: "<img src='images/orrisa.jpg' type='image' style=\"width:100%;height:100%;  border-radius:5px; margin-bottom:10px;\"><p>Believed to be originated in the early 12th-century, Pattachitra is an icon painting which makes it one of the most popular living art forms in India. People in Odisha can be seen practising it daily. </p>",
             color: "#ffcd3c"
         },
         "27": {
