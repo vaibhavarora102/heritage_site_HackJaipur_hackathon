@@ -41,9 +41,11 @@ Cart | Our site contains statewise, product-wise and region wise search facility
  sometimes, we have some antiques present in our homes, but we dont know about them, so we itroduced a new featue of image search, so that the required information can be known easily.
 
 ## 6) Challenges faced during this project:
-### a.) training CNN model
-### b.) making search functionality
-### c.) collecting data for training
+#### a.) deployment of ml model was big difficulty
+#### b.) hosting site with much stuff
+#### c.)training CNN model
+#### d.) making search functionality
+#### e.) collecting data for training
 
 ## 7) Technologies used:
 ### a.) AuthO
