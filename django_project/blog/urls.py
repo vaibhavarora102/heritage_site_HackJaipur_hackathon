@@ -27,6 +27,7 @@ urlpatterns = [
     path('model/model3', views.model3, name='model3'),
     path('model/model4', views.model4, name='model4'),
     path('model/model5', views.model5, name='model5'),
+    path('map/', views.map, name='map'),
 
 
 

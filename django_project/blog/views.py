@@ -12,7 +12,6 @@ from .models import Post, Post2, Take_Img
 from django.http import HttpResponse
 from django.db.models import Q
 from .forms import ImageForm
-from .ml import run
 
 
 class SearchResultsView(ListView):
@@ -117,3 +116,5 @@ def model4(request):
     return render(request, 'blog/model4.html')
 def model5(request):
     return render(request, 'blog/model5.html')
+def map(request):
+    return render(request, 'blog/map.html')
