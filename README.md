@@ -48,16 +48,15 @@ Cart | Our site contains statewise, product-wise and region wise search facility
 #### e.) collecting data for training
 
 ## 7) Technologies used:
-### a.) AuthO
-### b.) Machine Learning
-### c.) 3-D Visualization
-### d.) Semantic UI
-### e.) Django
+### a.) Machine Learning
+### b.) 3-D Visualization
+### c.) Semantic UI
+### d.) Django
 
 
 
 ## 8) Links for project:
-### LIVE PROJECT LINK: 
-### VIDEO LINK: http://www.saddi-hatti.online/
+### VIDEO LINK: https://www.youtube.com/watch?v=KEKJAbJT1TU&feature=emb_title
+### LIVE PROJECT LINK: http://www.saddi-hatti.online/
 
 ##  
