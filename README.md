@@ -58,6 +58,6 @@ Cart | Our site contains statewise, product-wise and region wise search facility
 
 ## 8) Links for project:
 ### LIVE PROJECT LINK: 
-### VIDEO LINK: 
+### VIDEO LINK: http://www.saddi-hatti.online/
 
 ##  
