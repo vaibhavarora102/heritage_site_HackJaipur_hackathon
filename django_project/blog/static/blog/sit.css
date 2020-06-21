@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+.a:hover {
+    color: rgb(180, 176, 176);
+    text-decoration: none;
+}
+.a {
+    color: white;
+    text-decoration: none;
+}
+.a:active {
+    color: white;
+    text-decoration: none;
+}
+.ui.inverted.menu {
+  
+    background: #FF9800;  
+}
+#target{position:fixed;
+    left:0;top:0;
+    background-color: black;
+    color:white;
+    width:80px;
+    padding:5px;
+    z-index:1 ;
+    border-bottom-right-radius: 50px;
+    text-shadow: 1px solid white;
+}
+.nav{
+    position: relative;
+    height:50px;
+    background-color:#FF9800;padding-top:5px;
+}
+.searchhello{
+    transform: translateX(260%);
+}
+.hellobuttons{
+    position:absolute;
+    right:10px;
+    top:8px;
+}
+.logout{
+    position:absolute;
+    right:0; padding:8px;padding-left: 20px; background-color: black;
+    color:white; border-bottom-left-radius: 25px;
+}
+.seg_me{
+position: relative;
+}
+.left_seg{
+    position: absolute;
+    width:14%;left:0;
+}
+.right_seg{
+    padding:10px;
+    border-left:1px solid grey;
+    position: relative;
+    top:15%;
+    width:60%;left:20%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    height: 50px;
+}
+.push {
+    height: 50px;
+  }
+.cont{
+	max-width: 832px;
+}
+.HEADING{
+    transform: translate(300%,-3%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+    color:white;
+    font-size:30px ;
+}
