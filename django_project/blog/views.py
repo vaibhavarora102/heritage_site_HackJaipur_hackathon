@@ -100,12 +100,7 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 def model(request):
     return render(request, 'blog/model.html')
 
-def img(request):
-    form = ImageForm()
-    ans =  run()
-    labels=['assam handicrafts','assam silks','Bronze handicraft tamilnaidu','jute art west bengal','naga shawls assam','paintings west bengal','Singing bowls assam']
-    return HttpResponse(ans)
-    
+
 def model1(request):
     return render(request, 'blog/model1.html')
 def model2(request):
@@ -118,3 +113,5 @@ def model5(request):
     return render(request, 'blog/model5.html')
 def map(request):
     return render(request, 'blog/map.html')
+def img(request):
+    return render(request, 'blog/site2.html')
