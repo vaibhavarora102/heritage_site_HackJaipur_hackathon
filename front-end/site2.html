@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="site2.css">
+    
+</head>
+<body>
+  <!--bottom popup nav-->
+    <div id="target">
+        <i class="angle double up icon"></i>Menu
+      </div>
+    <div class="ui bottomhello bottom demo inverted nine item labeled icon sidebar menu overlay" >
+        <a class="item">
+          <i class="home icon"></i>
+          Home
+        </a>
+        <a class="item">
+          <i class="block layout icon"></i>
+          New arrivals
+        </a>
+       
+        <a class="item">
+          <i class="calendar icon"></i>
+         Orders
+        </a>
+        
+        <a class="item">
+          <i class="shop icon"></i>
+          Store
+        </a>
+        <a class="item">
+          <i class="settings icon"></i>
+          Settings
+        </a>
+      </div>
+      <!--main section of code -->
+     <div class="main_section">
+       <!--nav -->
+     <div class="nav">
+        <div class="searchhello"><div class="ui search ">
+            <div class="ui icon input">
+              <input class="prompt" type="text" placeholder="Search items...">
+              <i class="search icon"></i>
+            </div>
+            <a href="#" style=" font-size:18px ;"><i class="chevron circle right icon"></i> </a>
+            <div class="results"></div>
+          </div>
+         </div>
+         <div class="hellobuttons"> <div class="ui  buttons">
+            <button class="ui inverted button ">Image search</button>
+            <div class="or"></div>
+            <button class="ui inverted button">3d models</button>
+          </div>
+         </div>
+          <!--logout -->
+         <div class="logout">
+           <a href="#"> Logout</a>
+          </div>
+     </div>
+     <div class="seg_me">
+
+      <h4 class="ui horizontal divider header">
+        <i class="tag icon"></i>
+        Description
+      </h4>
+      <p class="ui  segment center aligned">Here! you can search your item by image to get best of your wish list !!! 
+        <br>
+        <div class=" ui container">
+        <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display:none" /> 
+        <p><label for="file" style="cursor: pointer;background-color: black;color:white;padding:10px;border-radius: 5px;">Upload Image</label></p>
+         <p><img id="output" width="200" /></p>
+        </div>
+        <div class="centered">
+          <button class="positive ui button hello">Make it visible only for result otherwise display none now leaving it</button></div>
+        </div>
+      </p>
+             
+      <h4 class="ui horizontal divider header">
+        <i class="bar chart icon"></i>
+        Results
+      </h4>
+      <div class="ui segment">
+  <div class="ui two column very relaxed grid">
+    <div class="column">
+      <div class="centered">
+      <button class="positive ui button hello">See product</button></div>
+    </div>
+    <div class="column">
+      <div class="centered">
+      <button class="negative ui button ">Visit to related state page</button></div>
+    </div>
+  </div>
+  <div class="ui vertical divider">
+    OR
+  </div>
+</div>
+     </div>
+     
+
+
+     
+     <div class="ui black inverted center aligned segment">
+       <br>Copyright@2020
+     </div>
+
+      </div>
+    </div>
+    
+    
+     </div>
+    
+
+     <script>
+      var loadFile = function(event) {
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+      };
+      </script>
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+      <script>
+          $( "#target" ).click(function() {
+            $('.bottomhello')
+  .sidebar('setting', 'transition', 'overlay')
+  .sidebar('toggle')
+;
+});
+
+
+      </script>
+</body>
+</html>
