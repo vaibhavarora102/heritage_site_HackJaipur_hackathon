@@ -11,7 +11,7 @@ cachetools==4.1.0
 certifi==2020.4.5.2
 cffi==1.14.0
 chardet==3.0.4
-cryptography==2.9.2
+cryptography>=3.2
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
@@ -95,7 +95,6 @@ tensorboard==2.2.2
 tensorboard-plugin-wit==1.6.0.post3
 tensorflow>=2.4.0
 tensorflow-estimator==2.2.0
-tensorflow-gpu==2.2.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
