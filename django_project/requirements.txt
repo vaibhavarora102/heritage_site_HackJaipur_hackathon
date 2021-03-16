@@ -4,7 +4,6 @@ astroid==2.4.1
 astunparse==1.6.3
 attrs==19.3.0
 backcall==0.2.0
-bleach==3.1.5
 braintree==4.1.0
 brotlipy==0.7.0
 cachetools==4.1.0
