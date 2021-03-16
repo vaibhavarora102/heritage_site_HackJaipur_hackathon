@@ -15,7 +15,7 @@ cryptography==2.9.2
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
-Django==3.0.7
+Django<=3.1
 django-allauth==0.42.0
 django-crispy-forms==1.9.1
 ecdsa==0.15
